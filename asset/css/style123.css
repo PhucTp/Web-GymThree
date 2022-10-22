@@ -1,0 +1,422 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+} 
+html{ 
+    font-family: Arial, Helvetica, sans-serif;
+} 
+/* Common ( Dùng chung ) */ 
+.clear{ 
+    clear: both;
+} 
+
+#main{
+
+}
+
+#header{
+    height: 42px; 
+    background-color: black; 
+    position: fixed; 
+    top:0;  
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    z-index: 1;
+} 
+/* Sản phẩm mới */
+.spnew{ 
+    margin-top: 15px;
+    text-align: center;
+    font-size: 22px; 
+    text-transform: uppercase;
+}
+#nav{ 
+    display: inline-block;
+} 
+#nav li{
+    display: inline-block; 
+    position: relative;
+}
+#nav >li >a{ 
+    text-decoration: none; 
+    line-height: 42px; 
+    padding: 0 24px;
+    color: #ffffff; 
+    text-transform: uppercase;
+    font-weight: 600;
+}  
+/* Css ti */ 
+.arrow-down{ 
+    font-size: 14px;
+}
+#nav > li:hover a{ 
+    opacity: 0.8;
+}
+#nav .subnav{ 
+    position: absolute;
+    display: none;
+} 
+#nav .subnav li{    
+    background-color: #ffffff;
+    width: 200px; 
+    padding: 10px 20px;  
+    height: 32px;
+} 
+#nav .subnav a{  
+    text-decoration: none;
+    color:#000; 
+}
+#nav .subnav >li:hover{ 
+    background-color: #FFA8B0; 
+    opacity: 0.9;  
+} 
+#nav li:hover .subnav{ 
+    display: block;
+} 
+/* Search */ 
+#header .search-icon{   
+  padding:6px;
+  float: right; 
+  list-style: none;
+}
+#header .icon{ 
+    font-size: 20px;
+} 
+#slider{ 
+    position: relative;
+    margin-top: 42px; 
+    padding-top:50%;
+    background: url('https://maruthi.vedicthemes.com/wp-content/uploads/revslider/fitgym/slider2.jpg') top center / cover no-repeat;
+}
+#slider .text-content{  
+    color: 	#FF0004;
+    position: absolute; 
+    bottom: 50%; 
+    right: 10%;
+}
+#slider .heading-content{
+    text-align: center;
+    font-size: 3rem;
+}
+#slider .desc-content{
+    text-align: center;  
+    margin-top: 20px;
+    color:#ffffff;
+    font-size: 2.5rem;
+}
+#slider .number-content{
+    text-align: center;  
+    color: #FF2700 ;
+    margin-top: 15px;
+}
+
+
+#content{
+
+}  
+#content .container-section{
+    background-color: #000;
+}
+.content-section{   
+    border-radius: 20px; 
+    border-bottom: solid 1px #000; 
+    background-color: #ffffff;
+    width: 1000px; 
+    margin-right: auto;
+    margin-left: auto;
+    padding: 64px 112px;
+   
+}
+.heading-section{
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 21px; 
+    font-weight: 600; 
+    letter-spacing: 4px; 
+    color: #FF0000;
+     
+} 
+.heart-icon{ 
+    font-size: 20px;
+}
+.desc-section{
+    text-align: center; 
+    margin-top: 15px; 
+    color: #FF8151;  
+    margin-right: 24px;
+    font-style: italic;
+
+} 
+.about-gym{ 
+    margin-top: 15px; 
+    font-size: 15px; 
+    text-align: justify; 
+    line-height: 1.6;
+} 
+.dear-section{
+    text-align: center; 
+    margin-top: 15px;
+} 
+/* Member-list */ 
+.member-list{ 
+    padding-top: 40px;
+} 
+.member-item{
+    float: left; 
+    width: 33.33333%;
+    text-align: center;
+}
+.member-name{ 
+    font-size: 15px;
+    color: #FF0000; 
+    font-style: bold;
+    
+} 
+.member-img{  
+    margin-top: 15px;
+    height: 154px; 
+    width: 154px;
+    border-radius: 10px;
+} 
+
+/* Container-section2 */ 
+#content .container-section2{ 
+    background-color: #000;  
+    padding-top: 80px; 
+    padding-bottom: 112px;
+} 
+.place-list{
+    margin-top: 40px;
+} 
+.place-item{   
+    float:left; 
+    width: 33.33333%;
+    padding-left: 60px; 
+    padding-right: 60px;
+
+} 
+.place-img{  
+   width: 100%; 
+   display: block; 
+   height: 250px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}  
+.place-body{
+    background-color: #fff; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.place-heading{  
+    padding-top: 10px; 
+    text-align: center;
+}  
+.place-heading a {
+    text-decoration: none; 
+    font-size: 20px; 
+    text-transform: uppercase; 
+    font-weight: 600; 
+    background-color: red; 
+    color:#000; 
+    padding: 5px 30px;
+}
+.place-sub-heading{
+    margin-top:10px; 
+    text-align: center;
+    color:#FF0000;
+} 
+.place-desc{  
+    
+    margin-left: 30px; 
+    padding: 10px;
+} 
+
+/* Sản phẩm Áo */ 
+#content .menu-section{
+    margin: 40px;
+}   
+.menu-list{ 
+    
+} 
+.menu-name{    
+    font-size: 30px; 
+    text-transform: uppercase;
+    text-align: center;  
+} 
+
+.menu-name a{ 
+    
+    text-decoration: none; 
+    color: #000; 
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.menu-items{
+    float:left; 
+    width: 25%;
+   padding: 8px;
+}
+.menu-img{  
+    display: block;
+    margin-top: 15px;
+    width: 100%; 
+    height: 250px;
+} 
+.menu-body{ 
+    background-color: #aaa69d; 
+    padding: 15px 10px;
+    
+} 
+.menu-heading{  
+    text-transform: uppercase;
+    font-size: 18px; 
+    line-height: 1.6;  
+    text-align: center;
+    background-color: red; 
+    padding: 3px;
+} 
+.menu-heading a{
+    text-decoration: none; 
+    color:#fff;
+}
+.menu-price{ 
+    margin-top: 10px;   
+    padding: 3px;
+    text-align: center;
+    background-color: #FF5159; 
+    font-weight: 600;
+}
+.menu-text{
+    margin-top: 10px;
+} 
+.menu-size{ 
+    margin-top: 20px;
+}
+.menu-size-2{ 
+    margin-top: 20px;
+}
+
+/* Whey */ 
+#content .whey-section{
+    margin-top: 20px;
+    margin-bottom: 30px;
+} 
+.whey-list{ 
+  
+} 
+.whey-name{  
+    
+    font-size: 21px; 
+    text-transform: uppercase;
+    text-align: center;
+}
+.whey-name a{ 
+    text-decoration: none; 
+    color: #000; 
+    letter-spacing: 1px;
+}
+
+.whey-items{  
+    margin-top: 20px;
+    float: left; 
+    width: 20%; 
+    padding:2px 15px;  
+    background-color: #000;
+} 
+.whey-img{ 
+    height: 200px; 
+    display: block;
+    width: 100%;
+}
+.whey-body{ 
+    background-color:#fff;
+} 
+.whey-heading{
+    text-transform: uppercase;
+    font-size: 18px; 
+    line-height: 1.6;  
+    text-align: center;
+    background-color: red; 
+    padding: 3px;
+}
+.whey-text{
+    margin-top: 10px;
+}
+.whey-price{
+    margin-top: 10px;   
+    padding: 3px;
+    text-align: center;
+    background-color: #FF5159; 
+    font-weight: 600;
+} 
+.whey-size{ 
+    margin-top: 15px;
+}
+#footer{
+    padding: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} 
+#footer .social{ 
+    height: 30px; 
+    width: 30px; 
+    margin-right: 20px; 
+    margin-top: 15px;
+}
+.footer-heading{ 
+    font-size: 18px; 
+    font-weight: 600;
+}
+.footer-sub-heading{ 
+    margin-top: 15px;
+    font-weight: 600;
+    
+} 
+.sub-heading{ 
+   font-weight: 500;
+} 
+
+.hotline{ 
+    margin-top: 15px;
+    height: 40px; 
+    
+} 
+/* chi tiết từng sản phẩm */ 
+.wrapper_chitiet{ 
+    margin-top: 15px;  
+   margin-right: 10px;
+   margin-left: 90px; 
+   margin-bottom: 40px;
+}
+.hinhanh_sp{  
+    float:left;
+    width: 50%; 
+    padding-left: 100px;
+    
+} 
+.hinhanh_sp img{ 
+    height: 400px;
+    width: 400px; 
+    border-radius: 50%; 
+    
+}
+.chitiet_sp{
+    padding-right: 200px;
+    padding-top: 50px;
+    text-align: center;
+}
+.addtocart{  
+    margin-top: 15px;
+    border:none;
+    background-color: #FF0000;
+    color: #fff;
+    padding: 10px 20px; 
+    cursor: pointer;
+} 
+.addtocart:hover{ 
+    background-color: green;
+    color:#000
+}

@@ -1,0 +1,98 @@
+*{
+    padding:0; 
+    margin: 0;
+    box-sizing: border-box;
+} 
+body{
+  background: url('https://haycafe.vn/wp-content/uploads/2022/03/Hinh-nen-mau-hong-pastel-tron-tone-nhat.jpg');
+}
+
+html{ 
+    font-family: Arial, Helvetica, sans-serif; 
+}  
+.clear{
+    clear: both;
+}  
+ .main-container{
+    height: 100px; 
+    width: 100%;
+} 
+.wrapper{ 
+    
+    height: 45px;
+    width: 100%;
+    margin: 0 auto; 
+  
+}
+
+.admin-list{  
+    display: flex; 
+    height: 50px;
+    text-align: center;
+    justify-content: center; 
+    margin-bottom: 10px;
+    
+} 
+.admin-list li{ 
+    padding: 8px;  
+    width: 400px;
+    line-height: 20px; 
+    list-style: none;
+    background-color: #FF5159; 
+    border: 1px solid #000;
+   text-transform:uppercase;
+} 
+.admin-list a{   
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;  
+    color: #fff; 
+    margin-bottom: 20px;
+} 
+.lietkesp{ 
+    background-color:#FF5159;
+}
+.lietkedanhmuc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*  */ 
+.sub-heading{  
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    margin-top: 15px; 
+    color:#FF0004; 
+    font-style: italic; 
+    opacity: 0.7;
+}
+/*  */ 
+.themdanhmuc{ 
+    margin-top: 30px;
+    margin-left: 20px;
+    padding:8px ;
+    width: 18%;
+    display: block;
+    background-color: #FF5159;
+}
+.danhmuc{ 
+    margin-top: 26px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.tittle-gym{
+        margin: 14px;
+        font-size: 20px;
+        background-color: #ff7675;
+     
+        display: inline-block;
+        text-align: center;
+        margin-left: 600px;
+        padding: 6px;
+        font-weight: bold;
+        border-radius: 10px;
+}
